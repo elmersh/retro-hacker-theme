@@ -1,6 +1,12 @@
 # Change Log
 
-## [1.0.1] - 2024-03-06
+## [1.0.2] - 2024-12-06
+
+### Changed
+
+- Fixed package.json metadata
+
+## [1.0.1] - 2024-12-06
 
 ### Changed
 
