@@ -1,5 +1,38 @@
 # Change Log
 
+## [1.0.3] - 2024-12-06
+
+### Added
+
+- Enhanced terminal panel customization
+  - Custom colors for panel sections (Problems, Output, Debug Console)
+  - Distinct border colors for panel headers
+  - Improved ANSI color scheme for better readability
+  - Terminal cursor and selection highlighting
+- Command palette improvements
+  - Background and border colors following the hacker theme
+  - Enhanced contrast for better visibility
+  - Hover state effects for command items
+  - Selection highlighting in theme colors
+
+### Changed
+
+- Terminal panel appearance
+  - Added borders to panel headers
+  - Updated section headers to be more visible
+  - Improved distinction between active and inactive tabs
+  - Enhanced visual hierarchy in panel elements
+- Refined color values for better contrast and readability
+  - Adjusted green tones for less eye strain
+  - Enhanced border visibility
+  - Improved text contrast in all terminal states
+
+### Fixed
+
+- Missing borders in terminal panel headers
+- Inconsistent text colors in terminal interface
+- Panel section contrast issues
+
 ## [1.0.2] - 2024-12-06
 
 ### Changed
