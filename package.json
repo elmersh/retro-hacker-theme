@@ -1,0 +1,29 @@
+{
+  "name": "retro-hacker-theme",
+  "displayName": "Retro Hacker Theme",
+  "description": "A high-contrast retro hacker theme with neon green accents",
+  "version": "1.0.0",
+  "publisher": "devxi",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "hacker",
+    "retro",
+    "high contrast"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0A1F0A",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmersh/retro-hacker-theme"
+  }
+}
