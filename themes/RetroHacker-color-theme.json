@@ -51,6 +51,14 @@
       "sideBarSectionHeader.background": "#133713",
       "sideBarSectionHeader.foreground": "#39FF14",
       "sideBarSectionHeader.border": "#39FF14",
+
+      // Minimap
+      "minimap.background": "#0A1F0A",
+      "minimap.errorHighlight": "#FF0000",
+      "minimap.warningHighlight": "#FFD700",
+      "minimap.findMatchHighlight": "#39FF1420",
+      "minimap.selectionHighlight": "#39FF1430",
+      "minimapSlider.background": "#9eff7811",
       
       // Lists and trees
       "list.activeSelectionBackground": "#39FF1440",
@@ -65,30 +73,33 @@
       "list.warningForeground": "#FFD700",
       
       // Activity bar
-      "activityBar.background": "#0A1F0A",
+      "activityBar.background": "#0a1f0d",
       "activityBar.foreground": "#39FF14",
-      "activityBar.border": "#39FF14",
+      "activityBar.border": "#15410d",
       "activityBar.activeBorder": "#39FF14",
       "activityBar.activeBackground": "#39FF1420",
       "activityBarBadge.background": "#39FF14",
       "activityBarBadge.foreground": "#000000",
       
       // Title and tabs
+      "editorGroup.border": "#39FF14",
+      "titleBar.border": "#39FF14",
+      "tab.hoverBorder": "#39FF14",
+      "tab.border": "#39FF14",
+      "tab.activeBorder": "#253b22",
+      "tab.activeModifiedBorder": "#FFD700",
+      "tab.unfocusedActiveBorder": "#39FF1460",
+      "editorGroupHeader.tabsBorder": "#39FF14",
+      "editorGroupHeader.tabsBackground": "#0c270c",
       "titleBar.activeBackground": "#0A1F0A",
       "titleBar.activeForeground": "#39FF14",
       "titleBar.inactiveBackground": "#0A1F0A",
       "titleBar.inactiveForeground": "#39FF1480",
-      "titleBar.border": "#39FF14",
       "tab.activeBackground": "#133713",
       "tab.activeForeground": "#39FF14",
       "tab.inactiveBackground": "#0A1F0A",
       "tab.inactiveForeground": "#39FF1480",
-      "tab.border": "#39FF14",
-      "tab.activeBorder": "#39FF14",
-      "tab.activeModifiedBorder": "#FFD700",
-      "tab.unfocusedActiveBorder": "#39FF1460",
       "tab.hoverBackground": "#39FF1420",
-      "tab.hoverBorder": "#39FF14",
       
       // Status bar
       "statusBar.background": "#0A1F0A",
@@ -104,28 +115,65 @@
       "statusBarItem.remoteBackground": "#39FF14",
       "statusBarItem.remoteForeground": "#000000",
       
+      // Terminal panel
+      "panel.background": "#0A1F0A",
+      "panel.border": "#39FF14",
+      "panelTitle.activeBorder": "#39FF14",
+      "panelTitle.activeForeground": "#39FF14",
+      "panelTitle.inactiveForeground": "#1c9207",
+      "panelInput.border": "#39FF14",
+      
+      // Panel section headers (Problems, Output, Debug Console, Terminal)
+      "panelSectionHeader.background": "#133713",
+      "panelSectionHeader.foreground": "#39FF14",
+      "panelSectionHeader.border": "#39FF14",
+      
       // Terminal
-      "terminal.background": "#0A1F0A",
-      "terminal.foreground": "#39FF14",
-      "terminal.selectionBackground": "#39FF1440",
-      "terminalCursor.foreground": "#39FF14",
-      "terminalCursor.background": "#000000",
-      "terminal.border": "#39FF14",
       "terminal.ansiBlack": "#000000",
+      "terminal.ansiBrightBlack": "#1a1a1a",
       "terminal.ansiBlue": "#87CEEB",
       "terminal.ansiBrightBlue": "#ADD8E6",
+      "terminal.ansiCyan": "#00CED1",
+      "terminal.ansiBrightCyan": "#00FFFF",
       "terminal.ansiGreen": "#39FF14",
       "terminal.ansiBrightGreen": "#00FF00",
       "terminal.ansiMagenta": "#DDA0DD",
       "terminal.ansiBrightMagenta": "#EE82EE",
       "terminal.ansiRed": "#FF0000",
       "terminal.ansiBrightRed": "#FF4444",
-      "terminal.ansiYellow": "#FFD700",
-      "terminal.ansiBrightYellow": "#FFFF00",
       "terminal.ansiWhite": "#E0FFE0",
       "terminal.ansiBrightWhite": "#FFFFFF",
-      "terminal.ansiBrightCyan": "#00FFFF",
-      "terminal.ansiCyan": "#00CED1",
+      "terminal.ansiYellow": "#FFD700",
+      "terminal.ansiBrightYellow": "#FFFF00",
+
+       // Tab del terminal y paneles
+       "terminal.tab.activeBorder": "#39FF14",
+       "panelSection.border": "#39FF14",
+       "panelSection.dropBackground": "#39FF1440",
+       
+       // Tabs del panel integrado
+       "tab.activeBorderTop": "#39FF14",
+       "tab.unfocusedActiveBorderTop": "#39FF1480",
+       
+       // Barra de comandos del terminal
+       "terminalCommandDecoration.defaultBackground": "#133713",
+       "terminalCommandDecoration.successBackground": "#39FF1440",
+       "terminalCommandDecoration.errorBackground": "#FF000040",
+       
+
+      // panel de comandos
+    "commandCenter.background": "#0A1F0A",
+    "commandCenter.border": "#37ff1441",
+    "commandCenter.activeBackground": "#1A3F1A",
+    "commandCenter.foreground": "#39FF14",
+    "commandCenter.activeForeground": "#FFFFFF",
+    "commandCenter.activeBorder": "#00FF00",
+    "quickInput.background": "#0A1F0A",
+    "quickInput.foreground": "#39FF14",
+    "quickInputList.focusBackground": "#1A3F1A",
+    "quickInputList.focusForeground": "#FFFFFF",
+    "quickInputTitle.background": "#0A1F0A",
+    "quickInputList.focusIconForeground": "#39FF14",
       
       // Input controls
       "input.background": "#0A1F0A",
