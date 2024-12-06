@@ -112,21 +112,6 @@ Optimized syntax highlighting for:
 
 - None at the moment. If you find any issues, please report them on our GitHub repository.
 
-## 📝 Release Notes
-
-### 1.0.0
-
-- Initial release
-- Basic theme implementation
-- Support for major programming languages
-
-### 1.1.0
-
-- Enhanced terminal colors
-- Improved syntax highlighting for Python and JavaScript
-- Better contrast for comments
-- Fixed minor color inconsistencies
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
