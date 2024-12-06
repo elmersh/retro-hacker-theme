@@ -1,8 +1,8 @@
 # Retro Hacker Theme for VS Code 🚀
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/publisher.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=publisher.retro-hacker-theme)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/publisher.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=publisher.retro-hacker-theme)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/publisher.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=publisher.retro-hacker-theme)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
 
 A carefully crafted VS Code theme inspired by classic hacker movies and retro computing. Features a high-contrast dark theme with neon green accents and carefully selected complementary colors for optimal readability during those long coding sessions.
 
