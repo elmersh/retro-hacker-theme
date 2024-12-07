@@ -160,6 +160,11 @@
        "terminalCommandDecoration.successBackground": "#39FF1440",
        "terminalCommandDecoration.errorBackground": "#FF000040",
        
+    "editorHoverWidget.background": "#0A1F0A",
+    "editorHoverWidget.border": "#39FF14",
+    "editorHoverWidget.foreground": "#39FF14",
+    "editorHoverWidget.statusBarBackground": "#133713",
+
 
       // panel de comandos
     "commandCenter.background": "#0A1F0A",
