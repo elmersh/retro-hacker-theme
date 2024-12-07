@@ -2,6 +2,14 @@
 
 ## [1.0.3] - 2024-12-06
 
+### Changed
+- Tooltip appearance to match theme style
+  - Updated background color to theme's dark green
+  - Added neon green borders
+  - Adjusted text colors for better visibility
+
+## [1.0.3] - 2024-12-06
+
 ### Added
 
 - Enhanced terminal panel customization
