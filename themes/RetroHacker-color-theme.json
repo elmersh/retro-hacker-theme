@@ -11,7 +11,7 @@
       "widget.shadow": "#00FF0020",
       
       // Editor
-      "editor.background": "#0A1F0A",
+      "editor.background": "#071307",
       "editor.foreground": "#E0FFE0",
       "editor.lineHighlightBackground": "#1A3F1A",
       "editor.lineHighlightBorder": "#39FF1440",
@@ -44,7 +44,7 @@
       "editorHint.border": "#39FF1440",
       
       // Sidebar and explorer
-      "sideBar.background": "#172117",
+      "sideBar.background": "#011b01",
       "sideBar.foreground": "#1c9207",
       "sideBar.border": "#39FF14",
       "sideBarTitle.foreground": "#39FF14",
@@ -86,16 +86,16 @@
       "titleBar.border": "#39FF14",
       "tab.hoverBorder": "#39FF14",
       "tab.border": "#39FF14",
-      "tab.activeBorder": "#253b22",
+      "tab.activeBorder": "#071307",
       "tab.activeModifiedBorder": "#FFD700",
       "tab.unfocusedActiveBorder": "#39FF1460",
       "editorGroupHeader.tabsBorder": "#39FF14",
       "editorGroupHeader.tabsBackground": "#0c270c",
-      "titleBar.activeBackground": "#0A1F0A",
+      "titleBar.activeBackground": "#011101",
       "titleBar.activeForeground": "#39FF14",
       "titleBar.inactiveBackground": "#0A1F0A",
       "titleBar.inactiveForeground": "#39FF1480",
-      "tab.activeBackground": "#133713",
+      "tab.activeBackground": "#071307",
       "tab.activeForeground": "#39FF14",
       "tab.inactiveBackground": "#0A1F0A",
       "tab.inactiveForeground": "#39FF1480",
@@ -257,7 +257,7 @@
                 "string.value"
             ],
             "settings": {
-                "foreground": "#FFA07A"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -313,7 +313,7 @@
                 "keyword.operator.sizeof"
             ],
             "settings": {
-                "foreground": "#39FF14",
+                "foreground": "#fffd77",
                 "fontStyle": "bold"
             }
         },
@@ -452,13 +452,13 @@
     ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-      "namespace": "#DDA0DD",
-      "type": "#DDA0DD",
-      "class": "#DDA0DD",
-      "enum": "#DDA0DD",
-      "interface": "#DDA0DD",
-      "struct": "#DDA0DD",
-      "typeParameter": "#DDA0DD",
+      "namespace": "#ff6aff",
+      "type": "#ff6aff",
+      "class": "#ff6aff",
+      "enum": "#ff6aff",
+      "interface": "#ff6aff",
+      "struct": "#ff6aff",
+      "typeParameter": "#ff6aff",
       "parameter": "#98FB98",
       "variable": "#98FB98",
       "property": "#98FB98",
@@ -469,7 +469,7 @@
       "macro": "#39FF14",
       "keyword": "#39FF14",
       "modifier": "#39FF14",
-      "comment": "#39FF1490",
+      "comment": "#6ac25a90",
       "string": "#FFA07A",
       "number": "#FFD700",
       "regexp": "#FFA07A",
