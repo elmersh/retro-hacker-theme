@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.0.4] - 2024-12-10
+
+### Changed
+
+- Some color updates for better readability
+  - Improved contrast for better visibility
+
 ## [1.0.3] - 2024-12-06
 
 ### Added
