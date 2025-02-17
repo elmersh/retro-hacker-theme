@@ -10,42 +10,19 @@ A carefully crafted VS Code theme inspired by classic hacker movies and retro co
 
 - 🖥️ High-contrast dark theme optimized for readability
 - 💚 Classic hacker-style neon green accents
-- 🎨 Carefully selected complementary colors for syntax highlighting
 - 📊 Enhanced visibility for important code elements
 - 🔍 Clear distinction between different code components
-- 💻 Optimized for long coding sessions
 - 🎯 Special attention to markup and terminal colors
 
 ## 📸 Screenshots
 
-### Python
+### Retro Hacker Green
 
-![Python Screenshot](images/python.png)
+![JS Screenshot](images/retro-hacker-theme-green.png)
 
-### JavaScript/TypeScript
+### Retro Hacker Pink
 
-![JavaScript Screenshot](images/javascript.png)
-
-### HTML/CSS
-
-![HTML/CSS Screenshot](images/html-css.png)
-
-### Terminal
-
-![Terminal Screenshot](images/terminal-java.png)
-
-## 🎨 Color Palette
-
-- **Background:** `#0A1F0A` - Deep forest black
-- **Foreground:** `#E0FFE0` - Soft mint text
-- **Accent:** `#39FF14` - Classic neon green
-- **Comments:** `#39FF1490` - Semi-transparent green
-- **Strings:** `#FFA07A` - Light salmon
-- **Numbers:** `#FFD700` - Golden yellow
-- **Functions:** `#87CEEB` - Sky blue
-- **Keywords:** `#39FF14` - Neon green
-- **Types:** `#DDA0DD` - Light purple
-- **Variables:** `#98FB98` - Pale green
+![JS Screenshot](images/retro-hacker-theme-pink.png)
 
 ## 📥 Installation
 
