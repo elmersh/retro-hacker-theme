@@ -164,7 +164,7 @@
       "terminalCommandDecoration.errorBackground": "#FF000040",
       
       // Editor hover widget
-      "editorHoverWidget.background": "#0A1F0A",
+      "editorHoverWidget.background": "#1f0a12",
       "editorHoverWidget.border": "#ff69b4",
       "editorHoverWidget.foreground": "#ff69b4",
       "editorHoverWidget.statusBarBackground": "#37132d",
@@ -176,7 +176,7 @@
       "commandCenter.foreground": "#ff69b4",
       "commandCenter.activeForeground": "#FFFFFF",
       "commandCenter.activeBorder": "#ff69b4",
-      "quickInput.background": "#0A1F0A",
+      "quickInput.background": "#1f0a15",
       "quickInput.foreground": "#ff69b4",
       "quickInputList.focusBackground": "#3f1a3d",
       "quickInputList.focusForeground": "#FFFFFF",
@@ -184,12 +184,12 @@
       "quickInputList.focusIconForeground": "#ff69b4",
       
       // Input controls
-      "input.background": "#0A1F0A",
+      "input.background": "#1f0a16",
       "input.foreground": "#ff69b4",
-      "input.border": "#ff69b4",
+      "input.border": "#58284080",
       "input.placeholderForeground": "#ff69b480",
       "inputOption.activeBackground": "#ff69b440",
-      "inputOption.activeBorder": "#ff69b4",
+      "inputOption.activeBorder": "#ff69b475",
       "inputValidation.errorBackground": "#FF000020",
       "inputValidation.errorBorder": "#FF0000",
       "inputValidation.warningBackground": "#6f00ff20",
@@ -205,17 +205,17 @@
       "breadcrumb.foreground": "#ff69b490",
       "breadcrumb.focusForeground": "#ff69b4",
       "breadcrumb.activeSelectionForeground": "#FFFFFF",
-      "breadcrumbPicker.background": "#0A1F0A",
+      "breadcrumbPicker.background": "#1f0a18",
       
       // Settings
       "settings.headerForeground": "#ff69b4",
       "settings.modifiedItemIndicator": "#FFD700",
-      "settings.checkboxBackground": "#0A1F0A",
+      "settings.checkboxBackground": "#1f0a17",
       "settings.checkboxForeground": "#ff69b4",
       "settings.checkboxBorder": "#ff69b4",
       
       // Debug
-      "debugToolBar.background": "#0A1F0A",
+      "debugToolBar.background": "#1f0a17",
       "debugToolBar.border": "#ff69b4",
       "debugIcon.breakpointForeground": "#FF0000",
       "debugIcon.startForeground": "#ff69b4",
@@ -229,7 +229,7 @@
       "gitDecoration.submoduleResourceForeground": "#ff69b490",
 
       // Context menu
-      "menu.background": "#1f0a18",
+      "menu.background": "#11040dc4",
       "menu.foreground": "#ff69b4",
       "menu.selectionBackground": "#ff69b440",
       "menu.selectionForeground": "#FFFFFF",
