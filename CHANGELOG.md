@@ -1,6 +1,31 @@
 # Change Log
 
-## [1.0.9] - 17-02-25
+# [1.0.6] - 17-02-25
+
+### Added
+
+- New Pink Retro theme variant
+  - Complete color scheme transformation from neon green to hot pink
+  - Maintained high contrast and readability of the original theme
+  - All UI elements updated to match the pink aesthetic
+
+### Changed
+
+- Enhanced original Retro Hacker theme
+  - Improved panel customization with deeper green tones
+  - Enhanced context menu styling and visibility
+  - Better distinction between active and inactive UI elements
+  - Refined borders and highlights for improved visual hierarchy
+  - Updated tooltip appearances to match theme style
+  - Improved hover states and selection indicators
+
+### Improved
+
+- Interface consistency across all theme elements
+  - Standardized color usage in menus and panels
+  - Enhanced visual feedback for interactive elements
+  - Better contrast in dropdown menus and context windows
+  - Refined terminal and panel aesthetics
 
 ## [1.0.5] - 06-12-24
 
