@@ -1,13 +1,15 @@
 # Change Log
 
-## [1.0.5] - 2024-12-10
+## [1.0.9] - 17-02-25
+
+## [1.0.5] - 06-12-24
 
 ### Changed
 
 - Some color updates for better readability
   - Improved contrast for better visibility
 
-## [1.0.4] - 2024-12-06
+## [1.0.4] - 06-12-24
 
 ### Changed
 
@@ -16,7 +18,7 @@
   - Added neon green borders
   - Adjusted text colors for better visibility
 
-## [1.0.3] - 2024-12-06
+## [1.0.3] - 06-12-24
 
 ### Added
 
@@ -49,19 +51,19 @@
 - Inconsistent text colors in terminal interface
 - Panel section contrast issues
 
-## [1.0.2] - 2024-12-06
+## [1.0.2] - 06-12-24
 
 ### Changed
 
 - Fixed package.json metadata
 
-## [1.0.1] - 2024-12-06
+## [1.0.1] - 06-12-24
 
 ### Changed
 
 - Updated README with more detailed information
 
-## [1.0.0] - 2024-12-06
+## [1.0.0] - 06-12-24
 
 ### Added
 
