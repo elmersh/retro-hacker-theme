@@ -1,15 +1,16 @@
 # Change Log
 
-## [1.0.4] - 2024-12-10
+## [1.0.5] - 2024-12-10
 
 ### Changed
 
 - Some color updates for better readability
   - Improved contrast for better visibility
 
-## [1.0.3] - 2024-12-06
+## [1.0.4] - 2024-12-06
 
 ### Changed
+
 - Tooltip appearance to match theme style
   - Updated background color to theme's dark green
   - Added neon green borders
