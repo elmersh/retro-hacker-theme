@@ -1,5 +1,13 @@
 # Change Log
 
+# [1.0.7] - 17-02-25
+
+### Changed
+
+- Updated README with new theme variant information
+- Fixed package.json metadata
+- Better color contrast for improved readability
+
 # [1.0.6] - 17-02-25
 
 ### Added
