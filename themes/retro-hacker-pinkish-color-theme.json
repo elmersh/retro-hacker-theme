@@ -279,7 +279,7 @@
                 "string.comment"
             ],
             "settings": {
-                "foreground": "#6B8E23",
+                "foreground": "#a08191",
                 "fontStyle": "italic"
             }
         },
@@ -295,7 +295,7 @@
                 "string.value"
             ],
             "settings": {
-                "foreground": "#CE9178"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -305,7 +305,7 @@
                 "punctuation.definition.template-expression.end"
             ],
             "settings": {
-                "foreground": "#89DDFF"
+                "foreground": "#ff50e8"
             }
         },
         {
@@ -320,7 +320,7 @@
                 "constant.character"
             ],
             "settings": {
-                "foreground": "#B5CEA8"
+                "foreground": "#FFD700"
             }
         },
         {
@@ -334,7 +334,7 @@
                 "meta.function.parameters"
             ],
             "settings": {
-                "foreground": "#DCDCAA",
+                "foreground": "#c341ff",
                 "fontStyle": "bold"
             }
         },
@@ -351,7 +351,7 @@
                 "keyword.operator.sizeof"
             ],
             "settings": {
-                "foreground": "#C586C0",
+                "foreground": "#fffd77",
                 "fontStyle": "bold"
             }
         },
@@ -389,7 +389,7 @@
                 "meta.object-literal.key"
             ],
             "settings": {
-                "foreground": "#9CDCFE"
+                "foreground": "#ec67b9"
             }
         },
         {
@@ -400,7 +400,7 @@
                 "variable.language.self"
             ],
             "settings": {
-                "foreground": "#569CD6",
+                "foreground": "#ff009d",
                 "fontStyle": "italic bold"
             }
         },
@@ -414,7 +414,7 @@
                 "punctuation.definition.tag"
             ],
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ff009d"
             }
         },
         {
@@ -428,7 +428,7 @@
                 "source.scss entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#569CD6",
+                "foreground": "#ff009d",
                 "fontStyle": "bold"
             }
         },
