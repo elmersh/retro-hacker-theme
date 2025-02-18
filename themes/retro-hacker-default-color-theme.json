@@ -261,6 +261,7 @@
 
   },
   "tokenColors": [
+    
         {
             "scope": "emphasis",
             "settings": {
@@ -301,6 +302,16 @@
             }
         },
         {
+          "scope": [
+            "storage.modifier.async.js",
+            "storage.type.js",
+          ],
+          "settings": {
+            "foreground": "#09ff00",
+            "fontStyle": "bold"
+          }
+        },
+        {
             "name": "JavaScript Template Expression",
             "scope": [
                 "punctuation.definition.template-expression.begin",
@@ -308,6 +319,49 @@
             ],
             "settings": {
                 "foreground": "#39FF14"
+            }
+        },
+        {
+            "name": "Operators and Delimiters",
+            "scope": [
+                "keyword.operator",
+                "punctuation.separator",
+                "punctuation.definition"
+            ],
+            "settings": {
+                "foreground": "#fffb14"
+            }
+        },
+        {
+            "name": "Tags and Attributes",
+            "scope": [
+                "entity.name.tag",
+                "entity.other.attribute-name",
+                "meta.tag"
+            ],
+            "settings": {
+                "foreground": "#39FF14"
+            }
+        },
+        {
+            "name": "CSS Selectors",
+            "scope": [
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.id",
+                "entity.other.attribute-name.pseudo-class",
+                "entity.other.attribute-name.pseudo-element"
+            ],
+            "settings": {
+                "foreground": "#39FF14"
+            }
+        },
+        {
+            "name": "CSS Units",
+            "scope": [
+                "keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
             }
         },
         {
@@ -416,7 +470,7 @@
                 "punctuation.definition.tag"
             ],
             "settings": {
-                "foreground": "#39FF14"
+                "foreground": "#028d2c"
             }
         },
         {
@@ -488,6 +542,34 @@
             "settings": {
                 "foreground": "#39FF14"
             }
+        },
+        {
+          "name": "",
+          "scope": [
+            "entity.name.type.namespace.cs",
+          ],
+          "settings": {
+            "foreground": "#ff6aff",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.attribute-name.html",
+          ],
+          "settings": {
+            "foreground": "#d9f827",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.definition.entity.html",
+          ],
+          "settings": {
+            "foreground": "#00af66",
+            "fontStyle": "bold"
+          }
         }
     ],
   "semanticHighlighting": true,
@@ -500,7 +582,7 @@
       "struct": "#ff6aff",
       "typeParameter": "#ff6aff",
       "parameter": "#98FB98",
-      "variable": "#98FB98",
+      "variable": "#5aff31",
       "property": "#98FB98",
       "enumMember": "#FFD700",
       "event": "#87CEEB",
