@@ -1,5 +1,13 @@
 # Change Log
 
+# [1.0.7] - 18-02-25
+
+### Improved
+
+- Code highlighting for better readability
+  - Updated syntax colors for improved contrast
+  - Adjusted green tones for some languages
+
 # [1.0.7] - 17-02-25
 
 ### Changed
