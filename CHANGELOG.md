@@ -1,5 +1,13 @@
 # Change Log
 
+# [1.0.7] - 19-02-25
+
+### Improved
+
+- Enhance color theme for improved aesthetics
+- Adjusted json colors for better readability
+- Updated instructions on how to customize the theme
+
 # [1.0.7] - 18-02-25
 
 ### Improved
