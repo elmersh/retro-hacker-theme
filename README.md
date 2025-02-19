@@ -43,9 +43,10 @@ You can override any color in your `settings.json`. Example:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[Retro Hacker]": {
-      "editor.background": "#0A1F0A",
-      "editor.foreground": "#39FF14"
+    "[Retro Hacker Green]": {
+        "terminal.background": "#000000",
+        "terminal.foreground": "#05d805",
+        ...
     }
   }
 }

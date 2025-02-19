@@ -12,9 +12,9 @@
       "widget.border": "#37ff1498",
       
       // Editor
-      "editor.background": "#071307",
-      "editor.foreground": "#E0FFE0",
-      "editor.lineHighlightBackground": "#132e13",
+      "editor.background": "#000000",
+      "editor.foreground": "#FFD700",
+      "editor.lineHighlightBackground": "#132e137a",
       "editor.lineHighlightBorder": "#135e047c",
       "editor.selectionBackground": "#ffd90056",
       "editor.wordHighlightBackground": "#39FF1430",
@@ -28,8 +28,8 @@
       "editorCursor.background": "#000000",
       "editorLineNumber.foreground": "#2d7421",
       "editorLineNumber.activeForeground": "#00FF00",
-      "editorBracketMatch.background": "#39FF1440",
-      "editorBracketMatch.border": "#39FF14",
+      "editorBracketMatch.background": "#00ff003d",
+      "editorBracketMatch.border": "#d0ff0000",
       "editorGutter.modifiedBackground": "#FFD700",
       "editorGutter.addedBackground": "#39FF14",
       "editorGutter.deletedBackground": "#FF4444",
@@ -45,12 +45,12 @@
       "editorHint.border": "#39FF1440",
       
       // Sidebar and explorer
-      "sideBar.background": "#0d240d",
-      "sideBar.foreground": "#4fc43a",
+      "sideBar.background": "#010e01",
+      "sideBar.foreground": "#4fcc15",
       "sideBar.border": "#39FF14",
       "sideBarTitle.foreground": "#37ff147e",
-      "sideBarSectionHeader.background": "#0a180a",
-      "sideBarSectionHeader.foreground": "#3a972ab6",
+      "sideBarSectionHeader.background": "#010e01",
+      "sideBarSectionHeader.foreground": "#8fff10",
       "sideBarSectionHeader.border": "#39FF14",
 
       // Minimap
@@ -74,7 +74,7 @@
       "list.warningForeground": "#FFD700",
       
       // Activity bar
-      "activityBar.background": "#0a1f0d",
+      "activityBar.background": "#08180a",
       "activityBar.foreground": "#39FF14",
       "activityBar.border": "#15410d",
       "activityBar.activeBorder": "#39FF14",
@@ -91,6 +91,7 @@
       "tab.activeModifiedBorder": "#FFD700",
       "tab.unfocusedActiveBorder": "#39FF1460",
 
+      "icon.foreground": "#39FF14",
 
       "editorGroupHeader.tabsBorder": "#39FF14",
       "editorGroupHeader.tabsBackground": "#072701f1",
@@ -106,7 +107,7 @@
       "tab.hoverBackground": "#39FF1420",
       
       // Status bar
-      "statusBar.background": "#0A1F0A",
+      "statusBar.background": "#001400",
       "statusBar.foreground": "#39FF14",
       "statusBar.border": "#39FF14",
       "statusBar.debuggingBackground": "#133713",
@@ -133,6 +134,8 @@
       "panelSectionHeader.border": "#39FF14",
       
       // Terminal
+      "terminal.background": "#000000",
+      "terminal.foreground": "#05d805",
       "terminal.ansiBlack": "#000000",
       "terminal.ansiBrightBlack": "#1a1a1a",
       "terminal.ansiBlue": "#87CEEB",
@@ -568,6 +571,24 @@
           ],
           "settings": {
             "foreground": "#00af66",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "support.type.property-name.json",
+          ],
+          "settings": {
+            "foreground": "#00ff0d",
+            "fontStyle": "bold"
+          }
+        },
+        {
+          "scope": [
+            "punctuation.support.type.property-name",
+          ],
+          "settings": {
+            "foreground": "#ffee00",
             "fontStyle": "bold"
           }
         }
