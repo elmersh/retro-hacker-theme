@@ -1,6 +1,29 @@
 # Change Log
 
-# [1.0.7] - 19-02-25
+# [1.1.0] - 20-02-25
+
+### Added
+
+- New theme variants:
+  - Retro Hacker Amber: Classic amber monochrome aesthetic
+  - Retro Hacker Blue: IBM-inspired blue terminal theme
+  - Retro Hacker Pink: Neon cyberpunk pink style
+  - All new themes maintain the high contrast
+
+### Improved
+
+- Enhanced syntax highlighting across multiple languages:
+  - Standardized color schemes for each theme variant
+  - Improved consistency in token colors
+  - Better distinction between different code elements
+  - Optimized contrast for all new color palettes
+
+### Changed
+
+- Optimized color token definitions for all variants
+- Standardized semantic highlighting across themes
+
+# [1.0.9] - 19-02-25
 
 ### Improved
 
@@ -8,7 +31,7 @@
 - Adjusted json colors for better readability
 - Updated instructions on how to customize the theme
 
-# [1.0.7] - 18-02-25
+# [1.0.8] - 18-02-25
 
 ### Improved
 

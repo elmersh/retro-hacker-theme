@@ -50,6 +50,16 @@ You can override any color in your `settings.json`. Example:
     }
   }
 }
+
+{
+  "workbench.colorCustomizations": {
+    "[Retro Hacker Pink]": {
+        "terminal.background": "#000000",
+        "terminal.foreground": "#ff00ff",
+        ...
+    }
+  }
+}
 ```
 
 ## ✨ Best Experience
