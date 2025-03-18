@@ -1,5 +1,17 @@
 # Change Log
 
+# [1.1.1] - 18-03-25
+
+### Added
+
+- Improvements
+  - Enhanced syntax highlighting across multiple languages
+  - Standardized color schemes for each theme variant
+  - Improved consistency in token colors
+  - Better distinction between different code elements
+
+
+
 # [1.1.0] - 20-02-25
 
 ### Added

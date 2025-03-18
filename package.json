@@ -2,7 +2,7 @@
   "name": "retro-hacker-theme",
   "displayName": "Retro Hacker Theme",
   "description": "A high-contrast retro hacker theme with neon green accents",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "devxi",
   "engines": {
     "vscode": "^1.84.0"
