@@ -1,5 +1,11 @@
 # Change Log
 
+# [1.1.2] - 21-04-25
+
+### Improved
+
+- Updated token colors for better visibility and consistency on the default theme
+
 # [1.1.1] - 18-03-25
 
 ### Added
