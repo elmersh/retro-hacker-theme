@@ -1,6 +1,31 @@
 # Change Log
 
-# [1.1.2] - 21-04-25
+## [1.2.0] - 2025-11-25
+
+### Added
+
+- Bracket pair colorization with alternating colors (green/gold/chartreuse)
+- Bracket pair guides for visual nesting indication
+- New token colors for better differentiation:
+  - Operators: `#3CB371` (sea green)
+  - Object properties: `#7FFF00` (chartreuse)
+  - Imports/namespaces: `#00FA9A` (spring green)
+
+### Changed
+
+- Replaced cyan/blue colors with green tones for better theme consistency
+- Softened UI borders from `#00ff00` to `#00AA00`/`#00CC00` for less eye strain
+- Updated comments color to `#6B8E23` (olive) for better visibility
+- Improved hover and selection backgrounds for better visibility
+- Terminal ANSI colors now use green palette instead of default blues/magentas
+
+### Improved
+
+- Token differentiation between variables, properties, and operators
+- Unified semantic highlighting with token colors
+- Overall color consistency across the theme
+
+## [1.1.2] - 2025-04-21
 
 ### Improved
 

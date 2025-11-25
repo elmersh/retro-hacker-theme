@@ -1,130 +1,139 @@
-# Retro Hacker Theme for VS Code 🚀
+# Retro Hacker Theme for VS Code
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
 [![Downloads](https://img.shields.io/visual-studio-marketplace/d/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/devxi.retro-hacker-theme)](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
 
-A carefully crafted VS Code theme inspired by classic hacker movies and retro computing. Features a high-contrast dark theme with neon green accents and carefully selected complementary colors for optimal readability during those long coding sessions.
+A high-contrast dark theme inspired by classic hacker movies and retro computing. Features neon accents and carefully selected colors for optimal readability.
 
-## 🌟 Features
+## Theme Variants
 
-- 🖥️ High-contrast dark theme optimized for readability
-- 💚 Classic hacker-style neon green accents
-- 📊 Enhanced visibility for important code elements
-- 🔍 Clear distinction between different code components
-- 🎯 Special attention to markup and terminal colors
+| Variant | Description |
+|---------|-------------|
+| **Retro Hacker Green** | Classic neon green terminal aesthetic |
+| **Retro Hacker Pink** | Cyberpunk neon pink style |
+| **Retro Hacker Amber** | Classic amber monochrome |
+| **Retro Hacker Blue** | IBM-inspired blue terminal |
 
-## 📸 Screenshots
+## Screenshots
 
 ### Retro Hacker Green
-
-![JS Screenshot](images/retro-hacker-theme-green.png)
+![Green Theme](images/retro-hacker-theme-green.png)
 
 ### Retro Hacker Pink
+![Pink Theme](images/retro-hacker-theme-pink.png)
 
-![JS Screenshot](images/retro-hacker-theme-pink.png)
+## Installation
 
-## 📥 Installation
+1. Open VS Code Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+2. Search for "Retro Hacker Theme"
+3. Click Install
+4. Select theme: `Ctrl+K Ctrl+T` (`Cmd+K Cmd+T` on macOS)
 
-1. Open VS Code
-2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
-3. Search for "Retro Hacker Theme"
-4. Click Install
-5. Press Ctrl+K Ctrl+T (Cmd+K Cmd+T on macOS)
-6. Select "Retro Hacker"
+Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=devxi.retro-hacker-theme)
 
-Alternatively, you can install it directly from the VS Code Marketplace:
-[Retro Hacker Theme on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=publisher.retro-hacker-theme)
+## Customization
 
-## 🔧 Customization
+Override colors in your `settings.json`:
 
-You can override any color in your `settings.json`. Example:
+### UI Colors
 
 ```json
 {
   "workbench.colorCustomizations": {
     "[Retro Hacker Green]": {
-        "terminal.background": "#000000",
-        "terminal.foreground": "#05d805",
-        ...
-    }
-  }
-}
-
-{
-  "workbench.colorCustomizations": {
-    "[Retro Hacker Pink]": {
-        "terminal.background": "#000000",
-        "terminal.foreground": "#ff00ff",
-        ...
+      "editor.background": "#000000",
+      "sideBar.background": "#000a00",
+      "terminal.foreground": "#00ff00",
+      "editorBracketHighlight.foreground1": "#00FF00",
+      "editorBracketHighlight.foreground2": "#FFD700"
     }
   }
 }
 ```
 
-## ✨ Best Experience
+### Syntax Colors (Token Customization)
 
-For the best experience, we recommend:
+```json
+{
+  "editor.tokenColorCustomizations": {
+    "[Retro Hacker Green]": {
+      "comments": "#6B8E23",
+      "strings": "#FFCC00",
+      "keywords": "#66FF66",
+      "functions": "#AEEE00",
+      "variables": "#5aff31",
+      "textMateRules": [
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#AEEE00",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  }
+}
+```
 
-- Using a monospace font like [Fira Code](https://github.com/tonsky/FiraCode) or [Cascadia Code](https://github.com/microsoft/cascadia-code)
-- Enabling font ligatures if your font supports them
-- Setting `editor.renderWhitespace: "all"` for better visibility of whitespace
-- Using the integrated terminal for the full retro experience
+### Semantic Token Colors
 
-## 🔌 Supported Languages
+```json
+{
+  "editor.semanticTokenColorCustomizations": {
+    "[Retro Hacker Green]": {
+      "rules": {
+        "function": "#AEEE00",
+        "variable": "#5aff31",
+        "property": "#7FFF00",
+        "namespace": "#00FA9A"
+      }
+    }
+  }
+}
+```
 
-Optimized syntax highlighting for:
+## Color Palette (Green Variant)
 
-- Python
-- JavaScript/TypeScript
-- HTML/CSS
-- Java
-- C/C++
-- C#
-- Ruby
-- Go
-- Rust
-- Markdown
-- JSON/YAML
-- And many more!
+| Element | Color | Hex |
+|---------|-------|-----|
+| Keywords | Green bright | `#66FF66` |
+| Functions | Lime | `#AEEE00` |
+| Variables | Neon green | `#5aff31` |
+| Strings | Gold | `#FFCC00` |
+| Numbers | Yellow | `#FFD700` |
+| Comments | Olive | `#6B8E23` |
+| Operators | Sea green | `#3CB371` |
+| Properties | Chartreuse | `#7FFF00` |
 
-## 🤝 Contributing
+## Recommended Settings
+
+```json
+{
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.cursorStyle": "line"
+}
+```
+
+## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
-## 🐛 Known Issues
+## License
 
-- None at the moment. If you find any issues, please report them on our GitHub repository.
+MIT License - see [LICENSE](LICENSE) for details.
 
-## 📜 License
+## Author
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by classic hacker movies and retro computing
-- Special thanks to the VS Code theme development community
-- Thanks to all contributors and users for their feedback and support
-
-## 🚀 About the Author
-
-Created with 💚 by Elmer S.
-
-- [GitHub](https://github.com/elmersh)
-- [Twitter](https://twitter.com/elmerdev)
-
-## 💝 Support
-
-If you find this theme helpful, please consider:
-
-- Rating it on the VS Code Marketplace
-- Starring the GitHub repository
-- Sharing it with your friends and colleagues
+Created by [Elmer S.](https://github.com/elmersh)
 
 ---
 
-**Enjoy coding like a classic hacker!** 👨‍💻👩‍💻
+**Enjoy coding like a classic hacker!**
