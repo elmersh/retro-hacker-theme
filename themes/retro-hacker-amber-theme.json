@@ -224,6 +224,14 @@
         "notifications.background": "#1F120A",
         "notifications.border": "#ff9d00",
         "notificationLink.foreground": "#ffb000",
+        // Buttons
+        "button.background": "#ffb000",
+        "button.foreground": "#000000",
+        "button.hoverBackground": "#ff9d00",
+        "button.secondaryBackground": "#ffb00030",
+        "button.secondaryForeground": "#ffb000",
+        "button.secondaryHoverBackground": "#ffb00045",
+        "button.border": "#ff9d00",
         // Extensions
         "extensionButton.prominentBackground": "#ffb000",
         "extensionButton.prominentHoverBackground": "#ffb000",

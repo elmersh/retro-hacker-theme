@@ -1,5 +1,33 @@
 # Change Log
 
+## [1.3.0] - 2026-03-03
+
+### Añadido
+
+- Nueva variante de tema: **Retro Hacker Green - Subtle**
+  - Versión más suave del tema verde clásico
+  - Menor contraste para sesiones de código prolongadas
+  - Mantiene la estética retro terminal
+- Configuración completa de botones para todos los temas:
+  - Estilos primarios y secundarios
+  - Estados hover con retroalimentación visual
+  - Bordes personalizados con colores del tema
+
+### Cambiado
+
+- **Retro Hacker Pink** renombrado a **Retro Hacker Magenta**
+  - Refactorización completa de la paleta de colores
+  - Mejora en la consistencia del tema magenta CRT
+  - Optimización de colores para terminal clásico magenta
+  - Mejor diferenciación entre elementos de UI
+
+### Mejorado
+
+- Controles de interfaz con mejor retroalimentación visual
+- Consistencia en estilos de botones en todos los temas
+- Estados hover más visibles y coherentes
+- Experiencia de usuario mejorada en controles interactivos
+
 ## [1.2.0] - 2025-11-25
 
 ### Added

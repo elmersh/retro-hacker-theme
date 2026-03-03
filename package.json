@@ -2,7 +2,7 @@
   "name": "retro-hacker-theme",
   "displayName": "Retro Hacker Theme",
   "description": "A high-contrast retro hacker theme with neon green accents",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "devxi",
   "engines": {
     "vscode": "^1.84.0"
@@ -32,6 +32,11 @@
         "label": "Retro Hacker Green",
         "uiTheme": "vs-dark",
         "path": "./themes/retro-hacker-default-color-theme.json"
+      },
+      {
+        "label": "Retro Hacker Green - Subtle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/retro-hacker-green-subtle-theme.json"
       },
       {
         "label": "Retro Hacker Pink",
