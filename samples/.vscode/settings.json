@@ -1,0 +1,15 @@
+{
+  "files.autoSave": "off",
+  "workbench.colorTheme": "Retro Hacker Green",
+  "editor.stickyScroll.enabled": true,
+  "editor.inlayHints.enabled": "on",
+  "git.decorations.enabled": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.minimap.enabled": false,
+  "problems.decorations.enabled": false,
+  "git.blame.statusBarItem.enabled": false,
+  "git.blame.editorDecoration.enabled": false
+}

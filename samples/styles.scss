@@ -1,0 +1,24 @@
+@use 'sass:math';
+
+$neon: #39ff14;
+$sizes: (sm: 0.875rem, md: 1rem, lg: 1.25rem);
+
+@mixin glow($color: $neon, $blur: 8px) {
+  text-shadow: 0 0 $blur $color;
+}
+
+.panel {
+  border: 1px solid rgba($neon, 0.4);
+  padding: math.div(24px, 2);
+
+  &__title {
+    @include glow;
+    font-size: map-get($sizes, lg);
+  }
+
+  @each $name, $size in $sizes {
+    .text-#{$name} { font-size: $size; }
+  }
+
+  &:not(.disabled):hover { background: darken($neon, 40%); }
+}

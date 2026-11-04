@@ -1,8 +1,8 @@
 {
   "name": "retro-hacker-theme",
   "displayName": "Retro Hacker Theme",
-  "description": "A high-contrast retro hacker theme with neon green accents",
-  "version": "1.3.0",
+  "description": "Retro hacker / CRT terminal theme in five variants (green, subtle green, pink, amber, blue) with full workbench coverage and semantic highlighting",
+  "version": "2.0.0",
   "publisher": "devxi",
   "engines": {
     "vscode": "^1.84.0"
@@ -15,7 +15,13 @@
     "dark",
     "hacker",
     "retro",
-    "high contrast"
+    "high contrast",
+    "terminal",
+    "crt",
+    "neon",
+    "matrix",
+    "amber",
+    "synthwave"
   ],
   "icon": "images/icon.png",
   "galleryBanner": {
@@ -25,6 +31,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/elmersh/retro-hacker-theme"
+  },
+  "scripts": {
+    "build": "node build/generate.js all",
+    "validate": "node build/validate.js all"
   },
   "contributes": {
     "themes": [

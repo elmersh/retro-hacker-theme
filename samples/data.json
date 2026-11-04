@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "retro-hacker",
+  "version": "1.3.0",
+  "enabled": true,
+  "ratio": 0.13,
+  "nothing": null,
+  "tags": ["dark", "neon", "crt"],
+  "colors": {
+    "primary": "#39ff14",
+    "background": "#0a1f0a",
+    "nested": { "deep": { "deeper": [1, 2, { "deepest": false }] } }
+  }
+}

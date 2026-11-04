@@ -1,3 +1,6 @@
 node_modules
 *.vsix
 .claude
+# build/ esta en el gitignore global: aqui se re-incluye el generador
+!build/
+!samples/

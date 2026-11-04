@@ -1,5 +1,58 @@
 # Change Log
 
+## [2.0.0] - 2026-11-04
+
+Rediseño completo de las cinco variantes. Cada una conserva su identidad (verde fósforo, verde matrix, magenta neón, ámbar CRT y azul IBM), pero ahora todas comparten la misma estructura, cobertura y reglas de legibilidad.
+
+### Añadido
+
+- **Sistema de build** en `build/`: cada variante es una paleta de roles (`build/palettes/<variante>.js`) que se genera con un template común.
+  - `npm run build` genera los 5 temas.
+  - `npm run validate` revisa:
+    - que todas las claves de color estén en la lista oficial de VS Code;
+    - el contraste WCAG (texto ≥ 4.5:1 y glifos ≥ 3:1, con unas pocas excepciones documentadas en cada paleta);
+    - que los roles de sintaxis se distingan entre sí (ΔE2000);
+    - que no haya selectores duplicados.
+- **Cobertura total del workbench:** cerca de 690 colores por variante (antes unos 220). Incluye autocompletado, peek view, editores de diff y merge, inline chat, testing, gráfico de SCM, notebooks, debug, sticky scroll, inlay hints, ghost text, badges, dropdowns, checkboxes y keybinding labels. Ya no se cuelan los grises ni los azules por defecto de VS Code.
+- **Semantic highlighting con modificadores:**
+  - declaraciones en negrita;
+  - `readonly` y constantes;
+  - librería estándar;
+  - `deprecated` tachado;
+  - `self`/`this`;
+  - parámetros de tipo;
+  - tokens de Pylance y rust-analyzer.
+- **Paleta ANSI de 16 colores** con 8 tonos distinguibles, para que `ls --color`, git y las TUIs se vean bien.
+- **Colores para logs:** `ERROR` en rojo, `WARN` en ámbar, `INFO` en cian, y también `DEBUG` y fechas.
+- **Markdown completo:** encabezados, negrita, itálica, links, código inline, citas y listas.
+- **Carpeta `samples/`** con código de ejemplo en más de 40 lenguajes. Con `F5` se abre en el Extension Development Host para ver los cambios en vivo.
+- Captura de **Green - Subtle**: ahora el README muestra las 5 variantes.
+
+### Cambiado
+
+- **Retro Hacker Green:** la paleta se consolidó en roles con nombre. Antes había unos 10 verdes casi idénticos.
+  - texto plano en oro suave `#F2E6A0`, strings en oro `#FFD700`
+  - keywords en menta, funciones en lima, variables en verde pálido, propiedades en spring green
+  - números y constantes en ámbar `#FF9F1C`
+  - regex y escapes en brasa `#FF6F3C`
+  - tipos y links en cian `#00E5FF`, namespaces en turquesa `#2EC4B6`
+  - el rojo `#FF3B3B` se usa solo para errores, líneas borradas y código inválido
+- **Green - Subtle, Pink, Amber y Blue:** se regeneraron con la misma estructura que Green. Cada una tiene su paleta de roles, y el rojo de error se ajustó para que no se confunda con el acento de la variante.
+- **Diff:** las líneas agregadas, borradas y modificadas tienen cada una su propio color. Antes las tres eran verdes.
+- **Selección, búsqueda y resaltados:** la selección, los resultados de búsqueda, el resaltado de palabra y el multi-cursor se distinguen entre sí sin hundir la legibilidad del texto.
+- **Contraste:** las pestañas inactivas, los números de línea, el breadcrumb, CodeLens, el título del sidebar y los placeholders pasan a ≥ 4.5:1.
+- **Brackets:** el ciclo de colores es fósforo, cian y ámbar. Ya no usa el color del texto.
+
+### Corregido
+
+- Las reglas `meta.*` pintaban en negrita llamadas completas a funciones, con todos sus argumentos (Python, Java, PHP), y cuerpos enteros de métodos.
+- Había reglas de sintaxis duplicadas o en conflicto: tags, atributos, puntuación y `storage.type`.
+- Los tipos se veían con el color de keyword en Java, Go, C# y PHP.
+- `self`/`cls` de Python no tenían color.
+- Valores sin efecto: `tab.activeBorder` negro sobre negro y el borde de bracket match con alpha 00.
+- `tab.unfocusedActiveBorder` usaba rojo aunque no hubiera ningún error.
+- El archivo del tema tenía una coma final que rompía los parsers JSON estrictos.
+
 ## [1.3.0] - 2026-03-03
 
 ### Añadido

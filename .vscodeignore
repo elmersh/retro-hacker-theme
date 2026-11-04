@@ -3,3 +3,6 @@
 .gitignore
 vsc-extension-quickstart.md
 samples/**
+build/**
+images/retro-hacker-theme-*.png
+images/terminal-java.png

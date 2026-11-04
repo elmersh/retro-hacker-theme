@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+interface Props { title: string }
+const { title } = Astro.props;
+const posts = await fetch('https://api.example.com/posts').then((r) => r.json());
+---
+
+<Layout title={title}>
+  <h1 class="glow">{title}</h1>
+  <ul>
+    {posts.map((p: { slug: string; title: string }) => (
+      <li><a href={`/blog/${p.slug}`}>{p.title}</a></li>
+    ))}
+  </ul>
+</Layout>
+
+<style>
+  .glow { text-shadow: 0 0 8px #39ff14; }
+</style>

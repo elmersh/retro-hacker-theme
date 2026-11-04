@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Hacker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Comentario HTML -->
+</head>
+<body class="crt" data-theme="green">
+  <header id="top">
+    <nav aria-label="principal">
+      <a href="#about" class="link active">About</a>
+      <a href="https://devxi.com" target="_blank" rel="noopener">DEVXI</a>
+    </nav>
+  </header>
+  <main>
+    <form action="/login" method="post">
+      <label for="user">Usuario</label>
+      <input id="user" type="text" required placeholder="root" />
+      <button type="submit" disabled>Entrar &rarr;</button>
+    </form>
+    <table>
+      <tr><th>PID</th><th>CMD</th></tr>
+      <tr><td>1337</td><td>nmap</td></tr>
+    </table>
+  </main>
+  <script type="module">
+    import { term } from './javascript.js';
+    console.log(term.banner);
+  </script>
+</body>
+</html>

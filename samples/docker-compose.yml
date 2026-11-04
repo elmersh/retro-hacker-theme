@@ -1,0 +1,30 @@
+# YAML — docker compose
+version: "3.9"
+
+x-common: &common
+  restart: unless-stopped
+  env_file: .env
+
+services:
+  app:
+    <<: *common
+    image: ghcr.io/devxi/facxi:${TAG:-latest}
+    ports:
+      - "8080:80"
+    depends_on: [db, redis]
+    environment:
+      APP_ENV: production
+      APP_DEBUG: false
+      WORKERS: 4
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+
+  db:
+    <<: *common
+    image: postgres:17
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata: ~

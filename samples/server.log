@@ -1,0 +1,5 @@
+2026-11-04 12:00:01.123 INFO  [main] Servidor iniciado en http://0.0.0.0:8080
+2026-11-04 12:00:05.456 DEBUG [worker-1] Procesando factura id=1337 total=113.00
+2026-11-04 12:00:07.789 WARN  [worker-2] Reintento 2/3 para https://api.hacienda.gob.sv
+2026-11-04 12:00:09.000 ERROR [worker-2] Timeout después de 30000ms: ConnectionError
+2026-11-04 12:00:10.321 INFO  [main] Request GET /health 200 4ms 192.168.1.10

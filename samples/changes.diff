@@ -1,0 +1,11 @@
+diff --git a/themes/retro.json b/themes/retro.json
+index 3f2a1b..8c9d0e 100644
+--- a/themes/retro.json
++++ b/themes/retro.json
+@@ -10,7 +10,8 @@
+   "colors": {
+-    "editor.background": "#000000",
++    "editor.background": "#0a1f0a",
++    "editor.foreground": "#39ff14",
+     "editorCursor.foreground": "#39ff14",
+   }

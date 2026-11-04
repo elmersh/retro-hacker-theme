@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XML -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DEVXI Blog</title>
+    <link>https://devxi.com</link>
+    <item id="1" featured="true">
+      <title><![CDATA[Retro Hacker v1.3 & más]]></title>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 -0600</pubDate>
+    </item>
+  </channel>
+</rss>

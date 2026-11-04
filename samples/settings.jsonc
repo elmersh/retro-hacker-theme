@@ -1,0 +1,8 @@
+{
+  // JSON con comentarios (como settings.json de VS Code)
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontSize": 15,
+  /* bloque de comentario */
+  "workbench.colorTheme": "Retro Hacker Green",
+  "editor.bracketPairColorization.enabled": true,
+}

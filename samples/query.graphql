@@ -1,0 +1,22 @@
+# GraphQL — consulta con fragmentos y variables
+query GetInvoices($first: Int = 10, $status: InvoiceStatus!) {
+  invoices(first: $first, where: { status: $status }) @cached(ttl: 60) {
+    edges {
+      node {
+        ...InvoiceFields
+        client { name nit }
+      }
+    }
+    pageInfo { hasNextPage endCursor }
+  }
+}
+
+fragment InvoiceFields on Invoice {
+  id
+  total
+  createdAt
+}
+
+mutation Pay($id: ID!) {
+  payInvoice(id: $id) { id status }
+}

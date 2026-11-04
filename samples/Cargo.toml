@@ -1,0 +1,15 @@
+# TOML
+[package]
+name = "facxi-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["DEVXI <info@devxi.com>"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+
+[profile.release]
+lto = true
+opt-level = 3
+debug = false
